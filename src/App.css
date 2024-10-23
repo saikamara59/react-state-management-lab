@@ -7,3 +7,21 @@ li {
   list-style: none;
   margin: 10px;
 }
+
+.App -grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.App-card {
+  text-align: center;
+}
+
+.App img {
+  width: 250px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+}

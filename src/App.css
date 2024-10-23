@@ -1,27 +1,82 @@
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+p {
+  font-size: 18px;
+}
+
+
 ul {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
 }
 
 li {
   list-style: none;
   margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px; /* Set a fixed width for consistency */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.App -grid {
+.fighter-card {
+  text-align: center;
+}
+
+.fighter-image {
+  width: 160px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+p strong {
+  font-weight: bold;
+}
+
+.fighters-list, .team-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  padding: 0;
 }
 
-.App-card {
-  text-align: center;
-}
-
-.App img {
-  width: 250px;
-  height: 350px;
-  object-fit: cover;
-  border-radius: 8px;
+.fighter-card img {
+  margin-bottom: 10px;
 }
